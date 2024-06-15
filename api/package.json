@@ -1,0 +1,38 @@
+{
+  "name": "promopioneerbackend",
+  "version": "1.0.0",
+  "description": "tes be",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index",
+    "lint": "standard --fix",
+    "lint:check": "standard --verbose | snazzy"
+  },
+  "prisma": {
+    "seed": "node prisma/seeds/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.2.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "eslint-plugin-n": "^17.5.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "prisma": "^5.13.0",
+    "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "standard": "^17.1.0"
+  }
+}
